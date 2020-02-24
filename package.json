@@ -11,6 +11,7 @@
     "react-scripts": "3.4.0"
   },
   "scripts": {
+    "cy:open": "yarn start --silent & cypress open",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
