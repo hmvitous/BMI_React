@@ -3,7 +3,7 @@ import React from "react";
 const Form = props => {
 
   const weightPlaceholder = props.method == "metric" ? "Weight in kgs" : "Weight in lbs"
-  const heightPlaceholder = props.method == "metric" ? "Height in cm" : "Height in ft"
+  const heightPlaceholder = props.method == "metric" ? "Height in cm" : "Height in inches"
 
   return (
     <form onSubmit={props.onSubmitHandler}>

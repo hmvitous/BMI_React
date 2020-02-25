@@ -1,13 +1,7 @@
 export const calculateBmi = (weight, height, method) => {
 
     console.log("Method is set to:" + method)
-    if(method === "imperial"){
-        weight = (weight / 2.20462)
-        height = (height / 2.54)
-        debugger
-    }
-    
-    const bmiValue = (weight / (((height / 100)* height) / 100)).toFixed(2);
+    const bmiValue = method === "imperial" ? (weight / (height * height) * 703).toFixed(2) : (weight / (((height / 100)* height) / 100)).toFixed(2);
     const bmiMessage = setBMIMessage(bmiValue);
     return [bmiValue, bmiMessage];
     
