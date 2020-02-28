@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5a84b0fe-1563-469e-b4e0-52e7fe3025b7/deploy-status)](https://app.netlify.com/sites/bmi-hunter-janko/deploys)
+
 BMI Calcular
     This is a BMI calculator that was built in React. It lets you choose between
     metric and imperial units of measurement.
